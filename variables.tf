@@ -16,7 +16,7 @@ variable "repository_name" {
 variable "repository_description" {
     type        = string
     sensitive   = true
-    description = ""
+    description = "This is the description"
     default     = "made with Terraform"
 }
 
